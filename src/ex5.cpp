@@ -10,6 +10,7 @@ void setup(void)
 
     pinMode(BUTTON_PIN, INPUT);
     pinMode(LED_PIN, OUTPUT);
+    pinMode(LIGHT_PIN, INPUT);
     digitalWrite(LED_PIN, LOW);
 }
 
